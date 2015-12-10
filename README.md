@@ -1,9 +1,14 @@
-mkdir demo
-cd demo 
-git init
-echo 'my first filt' > README.md
-git add README.md
-git commit -m "first commit"
-git remote add http://linxuhong@github.com/demo.git
-git push -u origin  master
+  cd demo
+
+  git init
+
+  git add README.md
+
+  echo 'first firle' > README.md
+
+  git add README.md
+
+  git commit-m 'my first comment'
+
+  git push -u origin master
 
